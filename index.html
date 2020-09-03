@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PORTFOLIO</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- リンク遷移調整のJSの読み込み -->
+    <script src="js/adjast.js"></script>
+    <!--自前cssとWEBフォント-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--header ナビゲーション-->
+    <header>
+      <div class="fixed-top">
+        <nav class="navbar navbar-expand-md  navbar-light bg-light">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi" aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="bs-navi">
+              <ul class="navbar-nav">
+                <li class=""nav-item""><a a class="nav-link" href="#page_top">TOP</a></li>
+                <li class=""nav-item""><a a class="nav-link" href="#container03">CAREER</a></li>
+                <li class=""nav-item""><a a class="nav-link" href="#container05">SKILL</a></li>
+                <li class=""nav-item""><a a class="nav-link" href="game1/index.html">MINI GAME 1</a></li>
+                <li class=""nav-item""><a a class="nav-link" href="game2/index.html">MINI GAME 2</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--表題とプロフィール写真と自己紹介-->
+      <h1 div id="page_top">PORTFOLIO<h1>
+      <div  class="container">
+        <div class="row">
+          <div class="col-md-3" id="catcher">
+            <img src="photo2.png" alt="プロフィール写真" title="須山智文" class="img-fluid" id="photo">
+          </div>
+          <div class="col-md-5">
+            <div id="profile">
+              <h2 class="mt-2">須山 智文　Suyama Satofumi</h2>
+              <p class="mt-4">　クラシック歌手と音楽指導者、オフィスにおける業務フロー改善とマクロ制作による業務効率化を２本の柱として活動しています。</p>
+              <p>　穏やかなで前向きなコミュニケーションと課題に対するコミット力を生かし、様々な場所でリーダーシップを発揮してきました。</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!--02.自己PR 03.職務経歴-->
+      <div id="container02">
+          <h2>自己PR</h2>
+          <hr>
+          <p>　オフィス業務では、日々の業務の中で、「どうしたら仕事の質を高め、無駄な作業を効率化し、メンバーにとってよい環境が作れるか？」を常に考えながら業務を行ってきました。
+                その過程で、一つのツールとしてGASとVBAによるマクロ作成を自発的に学習し、それらを組み込んだ業務フロー立案や改善し、年間１０００時間近くの業務効率化を実現しました。</p>
+          <p>　開発では、常にユーザーの目線に立った、システムの設計、開発、保守運用までの一連の流れを担当できます。多方面とコミュニケーションをとりつつ、業務の問題点を抽出し、前向きな改善方法を提案し、解決するためのツールをプロトタイプを示しながら作成していくという能力が強みです。</p>
+          <p>　「チームが、その仕事のクリティカルな部分によりフォーカスした働き方ができる」という形での生産性の向上に、非常に興味があります。
+            今後は、より多くの人の業務を支える開発に携わっていきたいと考えております。
+            技術は未熟な部分もあるかと思いますが、より多くの必要な技術を身に着け、より多くのチームに貢献したいと考えております。</p>
+      </div>
+
+      <div id="container03">
+          <h2>CAREER</h2>
+          <hr>
+          <p class="ml-5">2002年4月　　　フリーランスの演奏家、音楽講師</p>
+          <p class="ml-5">2003年2月　　　株式会社 村上音楽事務所 所属(結婚式での演奏委託)</p>
+          <p class="ml-5">2015年2月　　　株式会社 ワークスジャパン メディア企画課</p>
+      </div>
+
+      <!--04.開発経歴-->
+      <div id="container04">
+        <h2>DEVELOPMENT</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td id="col1">2017年12月</td>
+              <td>
+                <h5>案件共有資料作成効率化</h5>
+                <p class="text-muted">
+                  架電アルバイト30人ほどが使用する、日毎のイベント情報シート作成を手作業から半自動化。<br>
+                  2h/日ほどの作業を0.5hほどに短縮。
+                </p>
+              </td>
+              <td>GAS</td>
+            </tr>
+
+            <tr>
+              <td>2018年3月</td>
+              <td>
+                <h5>アルバイトシフト管理システム</h5>
+                <p class="text-muted">
+                  　営業日・営業時間リストからの募集用Googleフォームを作成〜SpreadSheetでの回答整形〜勤務リストからデイリーで勤務者をリストアップを自動化。<br>
+                  　これまで使用してきた形を生かすという制約の中で、メンバー・社員双方が使い勝手の良い形を実現。月毎16ｈほどの作業を6hほどに。手作業による管理ミスの低減を実現。
+                </p>
+              </td>
+              <td>GAS</td>
+            </tr>
+
+            <tr>
+              <td>2018年11月</td>
+              <td>
+                <h5>データ加工サポートシステム</h5>
+                <p class="text-muted">
+                  　提携企業からの会員Excelデータを、自社システムにアップロードできる形への加工・修正の半自動化。<br>
+                  文字列スタイル統一、列削除・追加、学部学科名の表記の修正、文理・専攻の系統の判定などのうち確定できるものを自動化し、できないものを色付けする。<br>
+                  　提携4社それぞれ列項目などが異なるデータに対応。自動化できない正確性の低い入力項目も多く、自動化と手作業のバランスの最適化を工夫しました。<br>
+                  　時期により100-2000行のデータ、1-７h/日を0.25-2hに効率化。また加工ミスによる取り込み事故を無くし、経験の多くないメンバーも質の高い業務が可能になりました。
+                </p>
+              </td>
+              <td>EXCEL VBA</td>
+            </tr>
+
+            <tr>
+              <td>2019年7月</td>
+              <td>
+                <h5>予約確認フォーム作成自動化</h5>
+                <p class="text-muted">
+                  イベント予約学生への確認用Googleフォームをイベントごとに自動生成。<br>
+                  業務フロー立案からツール開発まで担当。3-16h/日を0.5-4hに効率化。
+                </p>
+              </td>
+              <td>GAS</td>
+            </tr>
+
+            <tr>
+              <td>2019年12月</td>
+              <td>
+                <h5>業務報告システム</h5>
+                <p class="text-muted">
+                  アルバイトメンバーの業務報告書のペーパーレス化。<br>
+                  SpreadSheetとHTML/CSSを連携し、入力用のWEBページを作成。集計も自動化。
+              </td>
+              <td>GAS/HTML/CSS</td>
+            </tr>
+
+            <tr>
+              <td>2019年12月</td>
+              <td>
+                <h5>架電用簡易システム</h5>
+                <p class="text-muted">
+                  宛先リストから条件に合う対象を抽出し、ユーザーフォームを使用し、必要なデータを表示し対応履歴を記録する。<br>
+                  前年７人月を要したプロジェクトを、2.5人月で目標を達成。
+                </p>
+              </td>
+              <td>EXCEL VBA</td>
+            </tr>
+
+            <tr>
+              <td>2020年3月</td>
+              <td>
+                <h5>部内イベント情報共有システム</h5>
+                <p class="text-muted">
+                企画されたイベントと、受注した企業の情報等を共有するシステム。
+                </p>
+              </td>
+              <td>GAS</td>
+            </tr>
+
+            <tr>
+              <td>2020年7月</td>
+              <td>
+                <h5>メール文生成システム</h5>
+                <p class="text-muted">
+                  イベントリストよりイベント告知用メールを自動生成するシステム。<br>
+                  メール作成者はクリエイティブな部分のみに集中して作業する形にする。
+                </p>
+              </td>
+              <td>GAS/HTML/CSS</td>
+            </tr>
+          <tbody>
+        </table>
+      </div>
+
+      <!--05.言語スキル・資格-->
+      <div id="container05">
+        <h2>SKILL</h2>
+        <table class="table">
+          <tr>
+            <td>Google Apps Script</td>
+            <td class="rating">★★★☆☆</td>
+            <td>プログラミングが可能</td>
+          </tr>
+          <tr>
+            <td>Excel VBA</td>
+            <td class="rating">★★★☆☆</td>
+            <td>プログラミングが可能</td>
+          </tr>
+          <tr>
+            <td>Access VBA</td>
+            <td class="rating">★☆☆☆☆</td>
+            <td>学習中</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td class="rating">★★☆☆☆</td>
+            <td>簡単なタグ打ちができる</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td class="rating">★★☆☆☆</td>
+            <td>簡単なコーディングが可能</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td class="rating">★★☆☆☆</td>
+            <td>簡単なプログラミングが可能</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td class="rating">★☆☆☆☆</td>
+            <td>基本的なSQL文が扱える</td>
+          </tr>
+        </table>
+
+        <h2 class="mt-5">QUALIFICATION</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>2019年10月</td>
+              <td>ITパスポート　取得</td>
+            </tr>
+            <tr>
+              <td>2020年1月</td>
+              <td>Excel VBA エキスパート　スタンダード　取得</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="text-right">Satofumi Suyama 2020.9.3</footer>
+  </body>
+</html>
